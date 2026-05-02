@@ -3,10 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
 <title>Ganesh Gaha — IT Engineer & Network Administrator</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
- <link rel="icon" type="image/x-icon" href="my logo.png">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
 <style>
@@ -24,17 +22,6 @@ body{font-family:var(--font);background:var(--dark);color:var(--text);overflow-x
 a{text-decoration:none;color:inherit}
 
 /* NAV */
-.logo-img {
-    height: 40px;    /* Adjust this to fit your nav bar height */
-    width: auto;     /* Maintains aspect ratio */
-    display: block;
-}
-
-.nlogo {
-    display: flex;
-    align-items: center;
-    gap: 10px;       /* Adds space between logo and your name */
-}
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:16px 80px;background:rgba(19,19,19,0.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,0.05);animation:fadeDown .6s ease both}
 .nlogo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:17px}
 .nlogo-icon{width:28px;height:28px;background:var(--yellow);border-radius:7px;display:flex;align-items:center;justify-content:center}
@@ -120,7 +107,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 
 /* SKILLS */
 .skills{background:var(--dark2)}
-.skills-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .skill-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:28px 22px;text-align:center;transition:all .35s;position:relative;overflow:hidden}
 .skill-card::before{content:'';position:absolute;inset:0;border-radius:18px;background:linear-gradient(135deg,rgba(255,235,52,.07),transparent);opacity:0;transition:opacity .35s}
 .skill-card:hover{border-color:rgba(255,235,52,.4);transform:translateY(-6px)}
@@ -308,11 +295,11 @@ footer{padding:56px 80px;background:var(--dark2);border-top:1px solid rgba(255,2
   .ftag{display:none}
   .about,.skills,.services,.experience,.sec{padding:60px 20px}
   .about{grid-template-columns:1fr}
-  .skills-grid{grid-template-columns:1fr 1fr}
+  .skills-grid{grid-template-columns:1fr}
   .svc-grid{grid-template-columns:1fr}
   .proj-grid{grid-template-columns:1fr}
   .blog-grid{grid-template-columns:1fr}
-  .certs-grid{grid-template-columns:1fr 1fr}
+  .certs-grid{grid-template-columns:1fr}
   footer{padding:40px 20px;grid-template-columns:1fr 1fr}
   .tech-bar{padding:36px 20px}
   .cta-sec{padding:60px 20px}
@@ -323,9 +310,10 @@ footer{padding:56px 80px;background:var(--dark2);border-top:1px solid rgba(255,2
 <body>
 
 <nav>
- <div class="nlogo">
-    <img src="my logo.png" alt="Ganesh Gaha Logo" class="logo-img">
-</div>
+  <div class="nlogo">
+    <div class="nlogo-icon"><svg viewBox="0 0 16 16"><path d="M8 1L14 4.5V11.5L8 15L2 11.5V4.5L8 1Z"/></svg></div>
+    Ganesh Gaha
+  </div>
   <div class="nlinks">
     <a href="#about">About Me</a>
     <a href="#experience">Experience</a>
@@ -415,7 +403,7 @@ footer{padding:56px 80px;background:var(--dark2);border-top:1px solid rgba(255,2
   </div>
 
   <div class="hero-photo">
-    <img src="photo.png" alt="Ganesh Gaha — IT Engineer"/>
+    <img src="1776915046106_image.png" alt="Ganesh Gaha — IT Engineer"/>
   </div>
 
   <div class="hero-namebig">
@@ -862,7 +850,7 @@ footer{padding:56px 80px;background:var(--dark2);border-top:1px solid rgba(255,2
   </div>
   <div class="fcol">
     <h4>Social Media</h4>
-    <ul><li><a href="#">Twitter / X</a></li><li><a href="https://www.instagram.com/gahamgr55/" target="_blank">Instagram</a></li><li><a href="https://www.linkedin.com/in/ganeshgaha/" target="_blank">LinkedIn</a></li><li><a href="https://github.com/gahamagar" target="_blank">GitHub</a></li></ul>
+    <ul><li><a href="#">Twitter / X</a></li><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">GitHub</a></li></ul>
   </div>
   <div class="fnews">
     <h4>Subscribe to Newsletter</h4>
