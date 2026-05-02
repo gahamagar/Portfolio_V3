@@ -22,6 +22,17 @@ body{font-family:var(--font);background:var(--dark);color:var(--text);overflow-x
 a{text-decoration:none;color:inherit}
 
 /* NAV */
+.logo-img {
+    height: 40px;    /* Adjust this to fit your nav bar height */
+    width: auto;     /* Maintains aspect ratio */
+    display: block;
+}
+
+.nlogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;       /* Adds space between logo and your name */
+}
 nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:16px 80px;background:rgba(19,19,19,0.92);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,255,255,0.05);animation:fadeDown .6s ease both}
 .nlogo{display:flex;align-items:center;gap:8px;font-weight:700;font-size:17px}
 .nlogo-icon{width:28px;height:28px;background:var(--yellow);border-radius:7px;display:flex;align-items:center;justify-content:center}
@@ -311,9 +322,8 @@ footer{padding:56px 80px;background:var(--dark2);border-top:1px solid rgba(255,2
 
 <nav>
   <div class="nlogo">
-    <div class="nlogo-icon"><svg viewBox="0 0 16 16"><path d="M8 1L14 4.5V11.5L8 15L2 11.5V4.5L8 1Z"/></svg></div>
-    Ganesh Gaha
-  </div>
+    <img src="my logo.png" alt="Ganesh Gaha Logo" class="logo-img">
+</div>
   <div class="nlinks">
     <a href="#about">About Me</a>
     <a href="#experience">Experience</a>
@@ -403,7 +413,7 @@ footer{padding:56px 80px;background:var(--dark2);border-top:1px solid rgba(255,2
   </div>
 
   <div class="hero-photo">
-    <img src="1776915046106_image.png" alt="Ganesh Gaha — IT Engineer"/>
+    <img src="photo.png" alt="Ganesh Gaha — IT Engineer"/>
   </div>
 
   <div class="hero-namebig">
@@ -850,7 +860,7 @@ footer{padding:56px 80px;background:var(--dark2);border-top:1px solid rgba(255,2
   </div>
   <div class="fcol">
     <h4>Social Media</h4>
-    <ul><li><a href="#">Twitter / X</a></li><li><a href="#">Instagram</a></li><li><a href="#">LinkedIn</a></li><li><a href="#">GitHub</a></li></ul>
+    <ul><li><a href="https://www.facebook.com/gahamagar55">Facebook</a></li><li><a href="https://www.instagram.com/gahamgr55/">Instagram</a></li><li><a href="https://www.linkedin.com/in/ganeshgaha/">LinkedIn</a></li><li><a href="https://github.com/gahamagar/">GitHub</a></li></ul>
   </div>
   <div class="fnews">
     <h4>Subscribe to Newsletter</h4>
